@@ -19,16 +19,24 @@
         >
           <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
             <li class="nav-item">
-              <a class="nav-link" href="#">Inicio</a>
+              <router-link :to="{ name: 'inicio' }" class="nav-link"
+                >Inicio</router-link
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FAQs</a>
+              <router-link :to="{ name: 'faqs' }" class="nav-link"
+                >FAQs</router-link
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nosotros</a>
+              <router-link :to="{ name: 'nosotros' }" class="nav-link" href="#"
+                >Nosotros</router-link
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">¿Quieres ser un sheldon?</a>
+              <router-link :to="{ name: 'unirte' }" class="nav-link" href="#"
+                >¿Quieres ser un sheldon?</router-link
+              >
             </li>
           </ul>
         </div>
