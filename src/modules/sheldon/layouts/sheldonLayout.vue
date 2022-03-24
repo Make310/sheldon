@@ -1,9 +1,14 @@
 <template>
-  <router-view />
+  <Navbar />
 </template>
 
 <script>
-export default {};
+import { defineAsyncComponent } from "vue";
+export default {
+  components: {
+    Navbar: defineAsyncComponent(() => import("../components/Navbar.vue")),
+  },
+};
 </script>
 
 <style></style>
