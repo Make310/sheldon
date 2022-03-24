@@ -10,14 +10,6 @@ $theme-colors: (
 );
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
 
 img {
   max-width: 100%;
