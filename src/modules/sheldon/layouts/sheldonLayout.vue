@@ -11,4 +11,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss">
+body {
+  font-family: "Kalam", cursive;
+}
+</style>
