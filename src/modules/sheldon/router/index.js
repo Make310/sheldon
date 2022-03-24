@@ -10,7 +10,7 @@ export default {
       name: "inicio",
       component: () =>
         import(
-          /* webpackChunkName: "daybook" */ "@/modules/sheldon/views/MainInicio.vue"
+          /* webpackChunkName: "daybook" */ "@/modules/sheldon/views/Inicio.vue"
         ),
     },
     {
