@@ -1,22 +1,25 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../views/Home.vue";
 import sheldonRouter from "../modules/sheldon/router";
 
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home,
+    redirect: (to) => {
+      return { name: "inicio" };
+    },
   },
-  {
-    path: "/about",
-    name: "About",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
-  },
+
   {
     path: "/sheldon",
     ...sheldonRouter,
+  },
+
+  {
+    path: "/:pathMatch(.*)*",
+    name: "notFound",
+    component: () =>
+      import(/* webpackChunkName: "NotFound" */ "../views/NotFound.vue"),
   },
 ];
 

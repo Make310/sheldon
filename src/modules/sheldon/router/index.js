@@ -2,7 +2,7 @@ export default {
   name: "sheldon",
   component: () =>
     import(
-      /* webpackChunkName: "daybook" */ "@/modules/sheldon/layouts/sheldonLayout.vue"
+      /* webpackChunkName: "sheldon" */ "@/modules/sheldon/layouts/sheldonLayout.vue"
     ),
   children: [
     {
@@ -10,7 +10,7 @@ export default {
       name: "inicio",
       component: () =>
         import(
-          /* webpackChunkName: "daybook" */ "@/modules/sheldon/views/Inicio.vue"
+          /* webpackChunkName: "inicio" */ "@/modules/sheldon/views/Inicio.vue"
         ),
     },
     {
@@ -18,7 +18,7 @@ export default {
       name: "faqs",
       component: () =>
         import(
-          /* webpackChunkName: "daybook" */ "@/modules/sheldon/views/Faqs.vue"
+          /* webpackChunkName: "faqs" */ "@/modules/sheldon/views/Faqs.vue"
         ),
     },
     {
@@ -26,7 +26,7 @@ export default {
       name: "nosotros",
       component: () =>
         import(
-          /* webpackChunkName: "daybook" */ "@/modules/sheldon/views/Nosotros.vue"
+          /* webpackChunkName: "nosotros" */ "@/modules/sheldon/views/Nosotros.vue"
         ),
     },
     {
