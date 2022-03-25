@@ -2,7 +2,11 @@
   <Navbar />
   <router-view />
   <Footer />
-  <a class="icon-whatsapp" target="_blank" href="">
+  <a
+    class="icon-whatsapp"
+    target="_blank"
+    href="https://api.whatsapp.com/send?phone=3024005915&text=Hola,%20me%20gustara%20cotizar%20uno%20de%20tus%20servicios."
+  >
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="icon icon-tabler icon-tabler-brand-whatsapp"
