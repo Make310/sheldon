@@ -35,10 +35,6 @@ export default {
 </script>
 
 <style lang="scss">
-body {
-  font-family: "Kalam", cursive;
-}
-
 .icon-whatsapp {
   position: fixed;
   height: 55px;
