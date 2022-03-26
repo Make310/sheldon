@@ -86,6 +86,119 @@
           </div>
         </div>
       </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseFour"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseFour"
+          >
+            ¿En que materias me pueden ayudar los Sheldons?
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseFour"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingFour"
+        >
+          <div class="accordion-body">
+            Por el momento nuestros Sheldons son expertos en las siguientes
+            materias: Calculo, fisca, algebra, química, termodinámica o balances
+            de energía y materia, control de procesos, fenómenos de transporte
+            (transferencia de calor y transferencia de masa), investigación de
+            operaciones y diseño de plantas.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseFive"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseFive"
+          >
+            ¿En qué países operamos?
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseFive"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingFive"
+        >
+          <div class="accordion-body">
+            Cualquier persona de habla hispana con acceso a nuestro sitio web
+            puede comunicarse con nuestros coordinadores para cotizar un
+            servicio, nuestros medios de comunicación no tienen límites
+            geográficos.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseSix"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseSix"
+          >
+            ¿Cómo se realizan los pagos?
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseSix"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingSix"
+        >
+          <div class="accordion-body">
+            En Sheldon manejamos distintas formas de pago, las cuales se
+            muestran en la página de inicio. Los pagos se realizan por
+            anticipado, al momento de aceptar la cotización el coordinador le
+            dará entrega del número de cuenta del medio que usted desee para que
+            haga la consignación, una vez realizada la consignación se le dará
+            entrega de un comprobante de pago y uno de nuestros Sheldons
+            iniciará a realizar la orden pedida o en su defecto a apartar un
+            espacio en su agenda para servicios por cita.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseSeven"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseSeven"
+          >
+            ¿Cuántos servicios puedo solicitar?
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseSeven"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingSeven"
+        >
+          <div class="accordion-body">
+            En Sheldon atenderemos todas las solicitudes que se hagan a través
+            de nuestros coordinadores, sin embargo, recomendamos que se haga una
+            solicitud por materia o por trabajo deseado, ya que si se solicitan
+            múltiples servicios en una solicitud el precio cotizado se dará para
+            el total de los servicios, así mismo, la ayuda brindada en la
+            solicitud dependerá que se apruebe el conjunto de servicios ya que
+            se requiere encontrar un Sheldon con los conocimientos necesarios
+            para todos los servicios.
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
