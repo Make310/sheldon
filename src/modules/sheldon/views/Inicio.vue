@@ -10,9 +10,9 @@
         data-aos-duration="2000"
       >
         <div class="card col-4" style="width: 18rem">
-          <img src="@/assets/tareas.jpg" class="card-img-top" alt="Tareas" />
+          <img src="@/assets/tareas.png" class="card-img-top" alt="Tareas" />
           <div class="card-body">
-            <h5 class="card-title">Tareas, talleres y trabajos</h5>
+            <h5 class="card-title fw-bold">Tareas, talleres y trabajos</h5>
             <p class="card-text">
               Nuestros sheldons te ayudarán a realizar las tareas, talles y
               trabajos que necesitas para una fecha concreta.
@@ -21,12 +21,12 @@
         </div>
         <div class="card col-4" style="width: 18rem">
           <img
-            src="@/assets/trabajos.jpg"
+            src="@/assets/trabajos.png"
             class="card-img-top"
             alt="trabajos"
           />
           <div class="card-body">
-            <h5 class="card-title">Trabajos y talleres por cita</h5>
+            <h5 class="card-title fw-bold">Trabajos y talleres por cita</h5>
             <p class="card-text">
               Nuestros sheldons se conectarán contigo en el horario que desees
               para ayudarte en tiempo real con tu trabajo.
@@ -34,9 +34,9 @@
           </div>
         </div>
         <div class="card col-4" style="width: 18rem">
-          <img src="@/assets/clases.jpg" class="card-img-top" alt="..." />
+          <img src="@/assets/clases.png" class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Clases virtuales</h5>
+            <h5 class="card-title fw-bold">Clases virtuales</h5>
             <p class="card-text">
               Nuestros Sheldons te darán una clase virtual de la asignatura o
               tema que necesitas, tu solo dinos lo que necesitas aprender.
@@ -74,6 +74,10 @@ export default {};
 }
 h5 {
   height: 4rem;
+}
+
+img {
+  height: 12rem;
 }
 
 .formas-pago {

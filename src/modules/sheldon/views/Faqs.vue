@@ -1,7 +1,14 @@
 <template>
   <div class="container my-5">
-    <h1 class="text-center mb-5">FAQS</h1>
-    <div class="accordion" id="accordionPanelsStayOpenExample">
+    <h1 class="text-center mb-5" data-aos="fade-down" data-aos-duration="2000">
+      FAQS
+    </h1>
+    <div
+      class="accordion"
+      id="accordionPanelsStayOpenExample"
+      data-aos="zoom-in"
+      data-aos-duration="1500"
+    >
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
           <button
@@ -109,7 +116,7 @@
             materias: Calculo, fisca, algebra, química, termodinámica o balances
             de energía y materia, control de procesos, fenómenos de transporte
             (transferencia de calor y transferencia de masa), investigación de
-            operaciones y diseño de plantas.
+            operaciones y diseño de plantas … o cualquier otra que necesites.
           </div>
         </div>
       </div>

@@ -1,11 +1,14 @@
 <template>
-  <div class="d-flex justify-content-around align-items-center fondo p-2">
-    <img src="@/assets/logo.png" alt="logo" />
-    <div>
-      <p>colombia</p>
-      <p>Numero de atencion al cliente</p>
-      <p>Correo de atencion al cliente</p>
+  <div class="fondo">
+    <div class="d-flex justify-content-around align-items-center p-2">
+      <img src="@/assets/logo.png" alt="logo" />
+      <div>
+        <p class="fw-light">colombia</p>
+        <p class="fw-light">+57 305 4547682</p>
+        <p class="fw-light">sheldon.atencion@gmail.com</p>
+      </div>
     </div>
+    <p class="text-center p-1 m-0">&copy; Todos los derechos reservados</p>
   </div>
 </template>
 
@@ -15,13 +18,13 @@ export default {};
 
 <style lang="scss" scoped>
 img {
-  height: 10rem;
+  height: 8rem;
 }
 .fondo {
-  background-color: #00000070;
+  background-color: #04494b;
 }
 p {
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   color: white;
 }
 </style>

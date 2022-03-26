@@ -87,9 +87,15 @@ export default {};
     font-size: 7rem;
   }
 }
+@media (max-width: 992px) {
+  .hero {
+    background-position: center right;
+  }
+}
 
 img {
-  height: 12rem;
+  height: 6rem;
+  margin-right: 2rem;
 }
 .wave {
   position: absolute;
@@ -101,5 +107,9 @@ a {
   font-size: 1.3rem;
   font-weight: bold;
   color: white !important;
+}
+
+.router-link-exact-active {
+  color: red !important;
 }
 </style>
