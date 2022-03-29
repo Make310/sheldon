@@ -3,7 +3,7 @@
     <div class="d-flex justify-content-around align-items-center p-2">
       <img src="@/assets/logo.png" alt="logo" />
       <div>
-        <p class="fw-light">colombia</p>
+        <p class="fw-light">Colombia</p>
         <p class="fw-light">+57 305 4547682</p>
         <p class="fw-light">sheldon.atencion@gmail.com</p>
       </div>

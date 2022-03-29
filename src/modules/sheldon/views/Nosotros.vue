@@ -33,9 +33,9 @@
     </div>
 
     <div
-      data-aos="fade-left"
+      data-aos="fade-right"
       data-aos-duration="2000"
-      class="row my-3 align-items-center flex-sm-row-reverse"
+      class="row my-3 align-items-center"
     >
       <div class="col-12 col-sm-8">
         <h3>Visión</h3>

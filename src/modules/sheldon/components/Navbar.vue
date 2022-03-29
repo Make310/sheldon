@@ -29,7 +29,7 @@
               >
             </li>
             <li class="nav-item">
-              <router-link :to="{ name: 'nosotros' }" class="nav-link" href="#"
+              <router-link :to="{ name: 'nosotros' }" class="nav-link"
                 >Nosotros</router-link
               >
             </li>
@@ -72,12 +72,12 @@ export default {};
   background-color: #00000070;
   background-blend-mode: soft-light;
   height: 38rem;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .top__font {
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-weight: bold;
   color: white;
 }
@@ -110,6 +110,6 @@ a {
 }
 
 .router-link-exact-active {
-  color: red !important;
+  color: #6e8db5 !important;
 }
 </style>
