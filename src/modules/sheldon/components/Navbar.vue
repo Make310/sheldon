@@ -71,13 +71,13 @@ export default {};
   background-image: url("../../../assets/hero.jpg");
   background-color: #00000070;
   background-blend-mode: soft-light;
-  height: 38rem;
+  height: 30rem;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .top__font {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   color: white;
 }

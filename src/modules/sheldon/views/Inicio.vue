@@ -56,7 +56,7 @@
       >
         <img src="@/assets/paypal-logo.svg" alt="imagen pago" />
 
-        <img src="@/assets/nequi-logo.png" alt="imagen pago" />
+        <img src="@/assets/nequi-logo.svg" alt="imagen pago" />
 
         <img src="@/assets/daviplata.svg" alt="imagen pago" />
       </div>
